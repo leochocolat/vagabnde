@@ -58,10 +58,17 @@ $(document).ready(function(){
       repeat: -1
   });
 
+  let animDark = new TimelineMax({
+      repeat: -1
+  });
+
   anim.add([
-    TweenMax.staggerFromTo(".white", .01, {display: "none"}, {display: "block"}, .1),
-    TweenMax.staggerFromTo(".dark", .01, {display: "none"}, {display: "block"}, .1),
+    TweenMax.staggerFromTo(".white", .01, {display: "none"}, {display: "block"}, .13),
   ]);
+
+  animDark.add(
+    TweenMax.staggerFromTo(".dark", .01, {display: "none"}, {display: "block"}, .08),
+  );
 
 
   $("body").mousedown(function(){
