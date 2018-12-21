@@ -1,26 +1,26 @@
 $(document).ready(function(){
 
   let images = [
-    "images/vaga1.jpg",
-    "images/vaga2.jpg",
-    "images/vaga3.jpg",
-    "images/vaga4.jpg",
-    "images/vaga5.jpg",
-    "images/vaga6.jpg",
-    "images/vaga7.jpg",
-    "images/vaga8.jpg"
+    "images/vaga1.JPG",
+    "images/vaga2.JPG",
+    "images/vaga3.JPG",
+    "images/vaga4.JPG",
+    "images/vaga5.JPG",
+    "images/vaga6.JPG",
+    "images/vaga7.JPG",
+    "images/vaga8.JPG"
   ];
 
   let imagesDark = [
-    "images/vaga-dark1.jpg",
-    "images/vaga-dark2.jpg",
-    "images/vaga-dark3.jpg",
-    "images/vaga-dark4.jpg",
-    "images/vaga-dark5.jpg",
-    "images/vaga-dark6.jpg",
-    "images/vaga-dark7.jpg",
-    "images/vaga-dark8.jpg",
-    "images/vaga-dark8.jpg"
+    "images/vaga-dark1.JPG",
+    "images/vaga-dark2.JPG",
+    "images/vaga-dark3.JPG",
+    "images/vaga-dark4.JPG",
+    "images/vaga-dark5.JPG",
+    "images/vaga-dark6.JPG",
+    "images/vaga-dark7.JPG",
+    "images/vaga-dark8.JPG",
+    "images/vaga-dark8.JPG"
   ];
 
   for (i = 0; i < images.length; i++) {
